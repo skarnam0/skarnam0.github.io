@@ -1,0 +1,35 @@
+:root {
+    --global-bg-color: #ffffff; /* White background */
+    --global-text-color: #006400; /* Dark green text */
+    --global-link-color: #008000; /* Green links */
+    --global-link-hover-color: #32cd32; /* Light green hover */
+    --global-border-color: #006400; /* Green borders */
+}
+
+body {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+}
+
+a {
+    color: var(--global-link-color);
+}
+
+a:hover {
+    color: var(--global-link-hover-color);
+}
+
+hr {
+    border-color: var(--global-border-color);
+}
+
+.btn {
+    background-color: var(--global-link-color);
+    color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+}
+
+.btn:hover {
+    background-color: var(--global-link-hover-color);
+    color: var(--global-bg-color);
+}
